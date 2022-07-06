@@ -3,7 +3,7 @@ package com.example.postemployee;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.time.LocalDate;
 
-@XmlRootElement(name = "person")
+@XmlRootElement(name = "organization")
 public class Organization extends Object {
     int ID;
     String title;
